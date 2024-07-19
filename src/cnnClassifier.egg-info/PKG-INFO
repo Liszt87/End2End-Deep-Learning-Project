@@ -5,7 +5,9 @@ Summary: A small python package for CNN app
 Home-page: https://github.com/Liszt87/End2End-Deep-Learning-Project
 Author: Liszt87
 Author-email: gh4nd4@gmail.com
+License: UNKNOWN
 Project-URL: Bug Tracker, https://github.com/Liszt87/End2End-Deep-Learning-Project/issues
+Platform: UNKNOWN
 
 # End2End-Deep-Learning-Project
 
@@ -179,3 +181,5 @@ DVC
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+
