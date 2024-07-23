@@ -15,3 +15,203 @@
 [2024-07-19 17:35:54,115: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2024-07-20 11:33:01,190: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-20 11:33:01,192: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-20 11:33:01,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-20 11:33:01,194: INFO: common: created directory at: artifacts]
+[2024-07-20 11:33:01,195: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-20 11:33:01,195: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-20 11:33:12,128: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-20 11:33:12,315: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-20 11:33:12,315: INFO: main: *******************]
+[2024-07-20 11:33:12,315: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-20 11:33:12,316: ERROR: main: type object 'ConfigurationManager' has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/main.py", line 20, in <module>
+    prepare_base_model.main()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/pipeline/stage_prepare_base_model_02.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: type object 'ConfigurationManager' has no attribute 'get_prepare_base_model_config'
+[2024-07-20 11:36:16,432: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-20 11:36:16,433: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-20 11:36:16,434: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-20 11:36:16,435: INFO: common: created directory at: artifacts]
+[2024-07-20 11:36:16,435: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-20 11:36:16,435: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-20 11:36:24,884: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-20 11:36:25,013: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-20 11:36:25,013: INFO: main: *******************]
+[2024-07-20 11:36:25,013: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-20 11:36:25,013: ERROR: main: ConfigurationManager.get_prepare_base_model_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/main.py", line 20, in <module>
+    prepare_base_model.main()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/pipeline/stage_prepare_base_model_02.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+TypeError: ConfigurationManager.get_prepare_base_model_config() missing 1 required positional argument: 'self'
+[2024-07-20 11:49:28,260: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-20 11:49:28,262: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-20 11:49:28,264: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-20 11:49:28,265: INFO: common: created directory at: artifacts]
+[2024-07-20 11:49:28,265: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-20 11:49:28,266: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-20 11:49:36,235: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-20 11:49:36,372: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-20 11:49:36,372: INFO: main: *******************]
+[2024-07-20 11:49:36,372: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-20 11:49:36,373: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-20 11:49:36,374: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-20 11:49:36,375: INFO: common: created directory at: artifacts]
+[2024-07-20 11:49:36,375: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-20 11:49:47,757: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-20 11:49:47,868: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-20 11:49:47,972: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-23 11:31:36,353: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-23 11:31:36,356: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:31:36,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:31:36,359: INFO: common: created directory at: artifacts]
+[2024-07-23 11:31:36,360: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-23 11:31:36,360: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:31:46,385: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:31:46,522: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-23 11:31:46,522: INFO: main: *******************]
+[2024-07-23 11:31:46,523: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-23 11:31:46,524: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:31:46,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:31:46,525: INFO: common: created directory at: artifacts]
+[2024-07-23 11:31:46,526: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-23 11:31:47,299: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-23 11:31:47,426: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-23 11:31:47,523: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-23 11:31:47,523: INFO: main: *******************]
+[2024-07-23 11:31:47,523: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2024-07-23 11:31:47,525: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:31:47,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:31:47,526: INFO: common: created directory at: artifacts]
+[2024-07-23 11:31:47,526: INFO: common: created directory at: artifacts/training]
+[2024-07-23 11:31:47,689: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-23 11:31:47,692: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/main.py", line 32, in <module>
+    model_trainer.main()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/pipeline/stage_model_training_03.py", line 16, in main
+    training.train_valid_generator()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/components/model_training.py", line 36, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/.venv/lib/python3.10/site-packages/keras/src/legacy/preprocessing/image.py", line 1138, in flow_from_directory
+    return DirectoryIterator(
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/.venv/lib/python3.10/site-packages/keras/src/legacy/preprocessing/image.py", line 453, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-07-23 11:35:24,816: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-23 11:35:24,819: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:35:24,821: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:35:24,822: INFO: common: created directory at: artifacts]
+[2024-07-23 11:35:24,822: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-23 11:35:24,822: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:35:32,251: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:35:32,381: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-23 11:35:32,381: INFO: main: *******************]
+[2024-07-23 11:35:32,381: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-23 11:35:32,382: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:35:32,383: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:35:32,384: INFO: common: created directory at: artifacts]
+[2024-07-23 11:35:32,384: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-23 11:35:33,007: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-23 11:35:33,128: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-23 11:35:33,223: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-23 11:35:33,223: INFO: main: *******************]
+[2024-07-23 11:35:33,223: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2024-07-23 11:35:33,224: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:35:33,225: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:35:33,225: INFO: common: created directory at: artifacts]
+[2024-07-23 11:35:33,226: INFO: common: created directory at: artifacts/training]
+[2024-07-23 11:35:33,394: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-23 11:35:33,934: ERROR: main: Unknown variable: <KerasVariable shape=(25088, 2), dtype=float32, path=dense/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/main.py", line 32, in <module>
+    model_trainer.main()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/pipeline/stage_model_training_03.py", line 17, in main
+    training.train()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/components/model_training.py", line 75, in train
+    self.model.fit(
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/.venv/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/.venv/lib/python3.10/site-packages/keras/src/optimizers/base_optimizer.py", line 228, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(25088, 2), dtype=float32, path=dense/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-07-23 11:42:24,909: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-23 11:42:24,911: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:42:24,912: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:42:24,913: INFO: common: created directory at: artifacts]
+[2024-07-23 11:42:24,914: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-23 11:42:24,914: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:42:32,438: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:42:32,565: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-23 11:42:32,565: INFO: main: *******************]
+[2024-07-23 11:42:32,565: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-23 11:42:32,566: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:42:32,567: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:42:32,567: INFO: common: created directory at: artifacts]
+[2024-07-23 11:42:32,568: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-23 11:42:33,214: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-07-23 11:42:33,326: ERROR: main: `keras.optimizers.legacy` is not supported in Keras 3. When using `tf.keras`, to continue using a `tf.keras.optimizers.legacy` optimizer, you can install the `tf_keras` package (Keras 2) and set the environment variable `TF_USE_LEGACY_KERAS=True` to configure TensorFlow to use `tf_keras` when accessing `tf.keras`.]
+Traceback (most recent call last):
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/main.py", line 21, in <module>
+    prepare_base_model.main()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/pipeline/stage_prepare_base_model_02.py", line 16, in main
+    prepare_base_model.update_base_model()
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/components/prepare_base_model.py", line 55, in update_base_model
+    self.full_model = self._prepare_full_model(
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/src/cnnClassifier/components/prepare_base_model.py", line 45, in _prepare_full_model
+    optimizer=tf.keras.optimizers.legacy.SGD(learning_rate=learning_rate),
+  File "/home/liszt87/python_project/End2End-Deep-Learning-Project/.venv/lib/python3.10/site-packages/keras/src/optimizers/__init__.py", line 115, in __init__
+    raise ImportError(
+ImportError: `keras.optimizers.legacy` is not supported in Keras 3. When using `tf.keras`, to continue using a `tf.keras.optimizers.legacy` optimizer, you can install the `tf_keras` package (Keras 2) and set the environment variable `TF_USE_LEGACY_KERAS=True` to configure TensorFlow to use `tf_keras` when accessing `tf.keras`.
+[2024-07-23 11:51:40,481: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-23 11:51:40,483: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:51:40,485: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:51:40,486: INFO: common: created directory at: artifacts]
+[2024-07-23 11:51:40,486: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-07-23 11:51:40,486: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:51:48,848: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1_U7LYY9auBqIqrQkg0uQyd85BMFU4Q2t/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-23 11:51:49,004: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-23 11:51:49,004: INFO: main: *******************]
+[2024-07-23 11:51:49,004: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-23 11:51:49,005: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:51:49,006: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:51:49,006: INFO: common: created directory at: artifacts]
+[2024-07-23 11:51:49,007: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-07-23 11:51:49,786: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-23 11:51:50,005: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-23 11:51:50,005: INFO: main: *******************]
+[2024-07-23 11:51:50,005: INFO: main: >>>>>> stage Training Model started <<<<<<]
+[2024-07-23 11:51:50,006: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-07-23 11:51:50,007: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-23 11:51:50,007: INFO: common: created directory at: artifacts]
+[2024-07-23 11:51:50,008: INFO: common: created directory at: artifacts/training]
+[2024-07-23 11:52:04,285: INFO: main: >>>>>> stage Training Model completed <<<<<<
+
+x==========x]
